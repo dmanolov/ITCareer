@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1. Сортиране на хора по име и възраст", "Problem 1. Сортиране на хора по име и възраст\Problem 1. Сортиране на хора по име и възраст.csproj", "{F7677F08-8497-4DA3-AE0C-E3297DD0BB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Клас  Box  (правоъгълен паралелепипед)", "Problem 2. Клас  Box  (правоъгълен паралелепипед)\Problem 2. Клас  Box  (правоъгълен паралелепипед).csproj", "{6DF8B8C7-DB85-4493-8807-DAAC32A0C1D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7677F08-8497-4DA3-AE0C-E3297DD0BB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7677F08-8497-4DA3-AE0C-E3297DD0BB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7677F08-8497-4DA3-AE0C-E3297DD0BB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7677F08-8497-4DA3-AE0C-E3297DD0BB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF8B8C7-DB85-4493-8807-DAAC32A0C1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF8B8C7-DB85-4493-8807-DAAC32A0C1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF8B8C7-DB85-4493-8807-DAAC32A0C1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF8B8C7-DB85-4493-8807-DAAC32A0C1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28D18715-8786-4379-95DE-1D1CB6A01F05}
+	EndGlobalSection
+EndGlobal
