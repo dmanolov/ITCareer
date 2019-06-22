@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.02.01.Сортиране-чрез-метод-на мехурчето", "04.02.01.Сортиране-чрез-метод-на мехурчето\04.02.01.Сортиране-чрез-метод-на мехурчето.csproj", "{1EF75DC9-8252-4DA4-A70E-3D258A4E58DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EF75DC9-8252-4DA4-A70E-3D258A4E58DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF75DC9-8252-4DA4-A70E-3D258A4E58DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF75DC9-8252-4DA4-A70E-3D258A4E58DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF75DC9-8252-4DA4-A70E-3D258A4E58DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E19E888-ED29-4B99-896D-88B2BF8505BB}
+	EndGlobalSection
+EndGlobal
