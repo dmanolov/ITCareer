@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 1. Линейно търсене", "Problem 1. Линейно търсене\Problem 1. Линейно търсене.csproj", "{9FF103EB-579B-4B3A-AC62-52E4FFEF1535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Двоично търсене", "Problem 2. Двоично търсене\Problem 2. Двоично търсене.csproj", "{AB19A021-7CE4-44D0-BCF0-EDACEA940B7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FF103EB-579B-4B3A-AC62-52E4FFEF1535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF103EB-579B-4B3A-AC62-52E4FFEF1535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF103EB-579B-4B3A-AC62-52E4FFEF1535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF103EB-579B-4B3A-AC62-52E4FFEF1535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB19A021-7CE4-44D0-BCF0-EDACEA940B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB19A021-7CE4-44D0-BCF0-EDACEA940B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB19A021-7CE4-44D0-BCF0-EDACEA940B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB19A021-7CE4-44D0-BCF0-EDACEA940B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64102560-A9D9-4CDD-97CC-45B2180E46B4}
+	EndGlobalSection
+EndGlobal
