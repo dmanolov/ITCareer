@@ -1,10 +1,11 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exam
+namespace Restorant
 {
     class Program
     {
@@ -12,6 +13,17 @@ namespace Exam
 
         static void Main(string[] args)
         {
+            // за да се отдели входа от изхода - начало 1
+            Console.WriteLine("INPUT:");
+            var standartOutput = Console.Out;
+            var standartError = Console.Error;
+            var bufferOutput = new StringWriter();
+            Console.SetOut(bufferOutput);
+            Console.SetError(bufferOutput);
+            Console.WriteLine();
+            Console.WriteLine("OUTPUT:");
+            // за да се отдели входа от изхода - край 1
+
             string line;
 
             while ("END" != (line = Console.ReadLine()))
@@ -45,6 +57,11 @@ namespace Exam
                         break;
                 }
             }
+            // за да се отдели входа от изхода - начало 1
+            Console.SetOut(standartOutput);
+            Console.SetError(standartError);
+            Console.Write(bufferOutput.ToString());
+            // за да се отдели входа от изхода - край 1
         }
 
         private static void CookMeal(string[] indexes)
