@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,16 @@ namespace Game
     {
         static void Main(string[] args)
         {
+            // за да се отдели входа от изхода - начало 1
+            Console.WriteLine("INPUT:");
+            var standartOutput = Console.Out;
+            var standartError = Console.Error;
+            var bufferOutput = new StringWriter();
+            Console.SetOut(bufferOutput);
+            Console.SetError(bufferOutput);
+            Console.WriteLine();
+            Console.WriteLine("OUTPUT:");
+            // за да се отдели входа от изхода - край 1
 
             int capacity = int.Parse(Console.ReadLine());
 
@@ -68,6 +79,12 @@ namespace Game
 
                 }
             } while (command != "End");
+
+            // за да се отдели входа от изхода - начало 2
+            Console.SetOut(standartOutput);
+            Console.SetError(standartError);
+            Console.Write(bufferOutput.ToString());
+            // за да се отдели входа от изхода - край 2
         }
 
     }

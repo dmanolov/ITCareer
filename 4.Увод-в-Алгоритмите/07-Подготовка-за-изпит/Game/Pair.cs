@@ -6,24 +6,25 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    class Pair
+    public class Pair
     {
         public int First { get; set; }
         public int Last { get; set; }
 
         public Pair(int first, int last)
         {
-            //TODO: Add code
+            this.First = first;
+            this.Last = last;
         }
 
         public override string ToString()
         {
-            //TODO: Add code
+            return $"({First}, {Last})";
         }
 
         public int Difference()
         {
-            //TODO: Add code
+            return Math.Abs(First - Last);
         }
     }
 }

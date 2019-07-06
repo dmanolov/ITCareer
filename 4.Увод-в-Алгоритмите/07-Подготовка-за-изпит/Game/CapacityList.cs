@@ -20,28 +20,62 @@ namespace Game
         }
         public int Count
         {
-            get;
-            private set;
+            get => startIndex;
+        }
+
+        private Pair SumPairs(int startIndex, int endIndex)
+        {
+            // сумира двойките от startIndex до endIndex
+            Pair sum = new Pair(0, 0);
+            for (int i = startIndex; i < endIndex; i++)
+            {
+                sum.First = sum.First + items[i].First;
+                sum.Last = sum.Last + items[i].Last;
+            }
+            return sum;
         }
 
         public Pair SumIntervalPairs()
         {
-            //TODO: сумирайте двойките от startIndex до nextIndex
+            // сумира двойките от startIndex до nextIndex
+            return SumPairs(startIndex, nextIndex);
         }
 
         public Pair Sum()
         {
-            //TODO: сумирайте двойките от 0 до this.Count – всички двойки, които имат право да участват в класирането
+            // сумира двойките от 0 до this.Count – 
+            // всички двойки, които имат право да участват в класирането
+            return SumPairs(0, this.Count);
         }
 
         public void Add(Pair item)
         {
-            //TODO: Добавяне на двойката         
+            // ако няма място, сумираме двойките за да освободим такова   
+            if(nextIndex == items.Length)
+            {
+                // сумиране на двойките от зарове
+                Pair sum = SumIntervalPairs();
+                items[startIndex].First = sum.First;
+                items[startIndex].Last = sum.Last;
+                // тази двойка вече няма да участва в сумите от зарове
+                startIndex++;
+                nextIndex = startIndex;
+            }
+            // ако и след сумирането няма място, край на играта
+            if (startIndex == items.Length)
+                throw new System.IndexOutOfRangeException("Game over, no more place");
+            // добавяне на двойката   
+            items[nextIndex] = item;
+            nextIndex++;
         }
 
         public void PrintCurrentState()
         {
-            //TODO: отпечатайте всички двойки от 0 до nextIndex
+            // отпечатва всички двойки от 0 до nextIndex
+            for (int i = 0; i < nextIndex; i++)
+            {
+                Console.WriteLine(items[i]);
+            }
         }
     }
 }
