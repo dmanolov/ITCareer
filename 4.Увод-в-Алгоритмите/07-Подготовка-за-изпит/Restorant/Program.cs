@@ -57,11 +57,11 @@ namespace Restorant
                         break;
                 }
             }
-            // за да се отдели входа от изхода - начало 1
+            // за да се отдели входа от изхода - начало 2
             Console.SetOut(standartOutput);
             Console.SetError(standartError);
             Console.Write(bufferOutput.ToString());
-            // за да се отдели входа от изхода - край 1
+            // за да се отдели входа от изхода - край 2
         }
 
         private static void CookMeal(string[] indexes)
