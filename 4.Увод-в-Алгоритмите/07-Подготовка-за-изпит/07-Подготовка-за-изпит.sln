@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train-arrays", "Train-array
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train-list", "Train-list\Train-list.csproj", "{9171FA44-A64F-424F-B117-9E63BE0767F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parking", "Parking\Parking.csproj", "{D79A2AA6-0ED7-40A1-8274-DFDF091C7717}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9171FA44-A64F-424F-B117-9E63BE0767F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9171FA44-A64F-424F-B117-9E63BE0767F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9171FA44-A64F-424F-B117-9E63BE0767F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79A2AA6-0ED7-40A1-8274-DFDF091C7717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79A2AA6-0ED7-40A1-8274-DFDF091C7717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79A2AA6-0ED7-40A1-8274-DFDF091C7717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79A2AA6-0ED7-40A1-8274-DFDF091C7717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
