@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Action", "01. Action\01. Action.csproj", "{72437477-5019-40E0-AE8F-D040B13BE857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Рицари на честта", "02. Рицари на честта\02. Рицари на честта.csproj", "{734F9B80-F96C-4076-B2CB-3830B27B7F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Собствена Min функция", "03. Собствена Min функция\03. Собствена Min функция.csproj", "{EF0FB2F8-190A-4D73-887F-E84554D60767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Намерете  четно или нечетно", "04. Намерете  четно или нечетно\04. Намерете  четно или нечетно.csproj", "{89872B0B-22AC-46E9-852E-08429936EAAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Приложна аритметика", "05. Приложна аритметика\05. Приложна аритметика.csproj", "{35C2499A-A0D2-44EF-A72E-118FAFD86CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Обърни и изпълни", "06. Обърни и изпълни\06. Обърни и изпълни.csproj", "{09636C31-0A9C-4295-A825-06A5ABC1B3A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72437477-5019-40E0-AE8F-D040B13BE857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72437477-5019-40E0-AE8F-D040B13BE857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72437477-5019-40E0-AE8F-D040B13BE857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72437477-5019-40E0-AE8F-D040B13BE857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734F9B80-F96C-4076-B2CB-3830B27B7F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734F9B80-F96C-4076-B2CB-3830B27B7F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734F9B80-F96C-4076-B2CB-3830B27B7F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734F9B80-F96C-4076-B2CB-3830B27B7F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0FB2F8-190A-4D73-887F-E84554D60767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0FB2F8-190A-4D73-887F-E84554D60767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0FB2F8-190A-4D73-887F-E84554D60767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0FB2F8-190A-4D73-887F-E84554D60767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89872B0B-22AC-46E9-852E-08429936EAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89872B0B-22AC-46E9-852E-08429936EAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89872B0B-22AC-46E9-852E-08429936EAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89872B0B-22AC-46E9-852E-08429936EAAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C2499A-A0D2-44EF-A72E-118FAFD86CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C2499A-A0D2-44EF-A72E-118FAFD86CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C2499A-A0D2-44EF-A72E-118FAFD86CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C2499A-A0D2-44EF-A72E-118FAFD86CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09636C31-0A9C-4295-A825-06A5ABC1B3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09636C31-0A9C-4295-A825-06A5ABC1B3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09636C31-0A9C-4295-A825-06A5ABC1B3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09636C31-0A9C-4295-A825-06A5ABC1B3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DB2125E-A843-492E-B50A-6B85FCBCDF29}
+	EndGlobalSection
+EndGlobal

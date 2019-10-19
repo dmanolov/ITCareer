@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Дефиниране на интерфейс IPerson", "1. Дефиниране на интерфейс IPerson\1. Дефиниране на интерфейс IPerson.csproj", "{43105367-60E5-4F92-8F70-F2DAF2A8AAD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43105367-60E5-4F92-8F70-F2DAF2A8AAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43105367-60E5-4F92-8F70-F2DAF2A8AAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43105367-60E5-4F92-8F70-F2DAF2A8AAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43105367-60E5-4F92-8F70-F2DAF2A8AAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2C2CF58-0BD5-4E6C-B93D-72D72476F229}
+	EndGlobalSection
+EndGlobal

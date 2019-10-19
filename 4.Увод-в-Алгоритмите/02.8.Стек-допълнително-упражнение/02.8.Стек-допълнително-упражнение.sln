@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.8.Стек-допълнително-упражнение.01", "02.8.Стек-допълнително-упражнение.01\02.8.Стек-допълнително-упражнение.01.csproj", "{85926202-4667-4E24-9E72-C635956530B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85926202-4667-4E24-9E72-C635956530B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85926202-4667-4E24-9E72-C635956530B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85926202-4667-4E24-9E72-C635956530B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85926202-4667-4E24-9E72-C635956530B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FC8E637-3F39-4120-87C2-319C0543BEAD}
+	EndGlobalSection
+EndGlobal
